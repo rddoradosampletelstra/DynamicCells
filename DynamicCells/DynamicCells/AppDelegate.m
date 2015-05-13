@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NewsTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // Set Background Color
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // Set StatusBar Color
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+    
+    // Create View Controller
+    NewsTableViewController *viewController = [[NewsTableViewController alloc] init];
+    
+    // Set the Root View Controller Manually
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:viewController];;
+    [self.window makeKeyAndVisible];
+    
+    // Set the status bar style
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     return YES;
 }
 
