@@ -15,6 +15,9 @@
 		D1DF715F1B03888800654BAE /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF715E1B03888800654BAE /* Request.m */; };
 		D1DF71631B03891900654BAE /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF71621B03891900654BAE /* NewsItem.m */; };
 		D1DF71661B03896E00654BAE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF71651B03896E00654BAE /* News.m */; };
+		D1DF716A1B038B4C00654BAE /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF71691B038B4C00654BAE /* ImageDownloader.m */; };
+		D1DF716E1B038BCC00654BAE /* NewsItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF716D1B038BCC00654BAE /* NewsItemTableViewCell.m */; };
+		D1DF71711B038BE300654BAE /* NewsItemImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF71701B038BE300654BAE /* NewsItemImageTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,12 @@
 		D1DF71621B03891900654BAE /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
 		D1DF71641B03896E00654BAE /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		D1DF71651B03896E00654BAE /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		D1DF71681B038B4C00654BAE /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		D1DF71691B038B4C00654BAE /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		D1DF716C1B038BCC00654BAE /* NewsItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItemTableViewCell.h; sourceTree = "<group>"; };
+		D1DF716D1B038BCC00654BAE /* NewsItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItemTableViewCell.m; sourceTree = "<group>"; };
+		D1DF716F1B038BE300654BAE /* NewsItemImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItemImageTableViewCell.h; sourceTree = "<group>"; };
+		D1DF71701B038BE300654BAE /* NewsItemImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItemImageTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,8 @@
 		D1DF71321B0385FA00654BAE /* DynamicCells */ = {
 			isa = PBXGroup;
 			children = (
+				D1DF716B1B038BC300654BAE /* Cells */,
+				D1DF71671B038B3100654BAE /* Utilities */,
 				D1DF71601B03890300654BAE /* Data */,
 				D1DF715C1B03887000654BAE /* Request */,
 				D1DF71371B0385FA00654BAE /* AppDelegate.h */,
@@ -142,6 +153,26 @@
 				D1DF71651B03896E00654BAE /* News.m */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		D1DF71671B038B3100654BAE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF71681B038B4C00654BAE /* ImageDownloader.h */,
+				D1DF71691B038B4C00654BAE /* ImageDownloader.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D1DF716B1B038BC300654BAE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF716C1B038BCC00654BAE /* NewsItemTableViewCell.h */,
+				D1DF716D1B038BCC00654BAE /* NewsItemTableViewCell.m */,
+				D1DF716F1B038BE300654BAE /* NewsItemImageTableViewCell.h */,
+				D1DF71701B038BE300654BAE /* NewsItemImageTableViewCell.m */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,11 +274,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1DF715B1B0386F700654BAE /* NewsTableViewController.m in Sources */,
+				D1DF716E1B038BCC00654BAE /* NewsItemTableViewCell.m in Sources */,
 				D1DF715F1B03888800654BAE /* Request.m in Sources */,
 				D1DF71661B03896E00654BAE /* News.m in Sources */,
 				D1DF71391B0385FA00654BAE /* AppDelegate.m in Sources */,
 				D1DF71631B03891900654BAE /* NewsItem.m in Sources */,
+				D1DF716A1B038B4C00654BAE /* ImageDownloader.m in Sources */,
 				D1DF71361B0385FA00654BAE /* main.m in Sources */,
+				D1DF71711B038BE300654BAE /* NewsItemImageTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
