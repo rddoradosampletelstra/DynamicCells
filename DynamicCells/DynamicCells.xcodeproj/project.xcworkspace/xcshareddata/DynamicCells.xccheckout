@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>15D900E5-EF4E-41F7-A0B6-B123A23CC4A4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>DynamicCells</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7ED629B145BAC4467004EDD718F67876EAE0C39F</key>
 		<string>https://github.com/rddoradosampletelstra/DynamicCells.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DynamicCells/DynamicCells.xcodeproj/project.xcworkspace</string>
+	<string>DynamicCells/DynamicCells.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7ED629B145BAC4467004EDD718F67876EAE0C39F</key>
