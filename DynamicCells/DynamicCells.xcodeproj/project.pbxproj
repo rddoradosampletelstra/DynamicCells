@@ -12,6 +12,9 @@
 		D1DF71411B0385FA00654BAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1DF71401B0385FA00654BAE /* Images.xcassets */; };
 		D1DF71501B0385FA00654BAE /* DynamicCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF714F1B0385FA00654BAE /* DynamicCellsTests.m */; };
 		D1DF715B1B0386F700654BAE /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF715A1B0386F700654BAE /* NewsTableViewController.m */; };
+		D1DF715F1B03888800654BAE /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF715E1B03888800654BAE /* Request.m */; };
+		D1DF71631B03891900654BAE /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF71621B03891900654BAE /* NewsItem.m */; };
+		D1DF71661B03896E00654BAE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF71651B03896E00654BAE /* News.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,12 @@
 		D1DF714F1B0385FA00654BAE /* DynamicCellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCellsTests.m; sourceTree = "<group>"; };
 		D1DF71591B0386F600654BAE /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
 		D1DF715A1B0386F700654BAE /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		D1DF715D1B03888800654BAE /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		D1DF715E1B03888800654BAE /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		D1DF71611B03891900654BAE /* NewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
+		D1DF71621B03891900654BAE /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
+		D1DF71641B03896E00654BAE /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		D1DF71651B03896E00654BAE /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,8 @@
 		D1DF71321B0385FA00654BAE /* DynamicCells */ = {
 			isa = PBXGroup;
 			children = (
+				D1DF71601B03890300654BAE /* Data */,
+				D1DF715C1B03887000654BAE /* Request */,
 				D1DF71371B0385FA00654BAE /* AppDelegate.h */,
 				D1DF71381B0385FA00654BAE /* AppDelegate.m */,
 				D1DF71591B0386F600654BAE /* NewsTableViewController.h */,
@@ -111,6 +122,26 @@
 				D1DF714E1B0385FA00654BAE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1DF715C1B03887000654BAE /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF715D1B03888800654BAE /* Request.h */,
+				D1DF715E1B03888800654BAE /* Request.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		D1DF71601B03890300654BAE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF71611B03891900654BAE /* NewsItem.h */,
+				D1DF71621B03891900654BAE /* NewsItem.m */,
+				D1DF71641B03896E00654BAE /* News.h */,
+				D1DF71651B03896E00654BAE /* News.m */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +243,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1DF715B1B0386F700654BAE /* NewsTableViewController.m in Sources */,
+				D1DF715F1B03888800654BAE /* Request.m in Sources */,
+				D1DF71661B03896E00654BAE /* News.m in Sources */,
 				D1DF71391B0385FA00654BAE /* AppDelegate.m in Sources */,
+				D1DF71631B03891900654BAE /* NewsItem.m in Sources */,
 				D1DF71361B0385FA00654BAE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
